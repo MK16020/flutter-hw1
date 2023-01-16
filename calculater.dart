@@ -9,11 +9,13 @@ void main() {
   do {
     print("Enter the first integer");
     firstDigit = int.parse(stdin.readLineSync()!);
+
     print("Enter the second integer");
     secondDigit = int.parse(stdin.readLineSync()!);
-    print(
-        "Choose the operation: \n ● * \n ● + \n ● - \n ● / \n ● % \n ● x to exit");
+
+    print("Choose the operation: \n ● * \n ● + \n ● - \n ● / \n ● % \n ● x to exit");
     operation = (stdin.readLineSync());
+
     switch (operation) {
       case '*':
         {
